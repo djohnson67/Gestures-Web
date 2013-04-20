@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (nonatomic)BOOL isUsed;
 @property (nonatomic)BOOL isHere;
+@property (nonatomic)BOOL isWorking;
 
 - (IBAction)foundTap:(id)sender;
 - (IBAction)foundSwipe:(id)sender;
