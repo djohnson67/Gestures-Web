@@ -19,6 +19,7 @@
 		4B294B1C16F799F400115154 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B294B1A16F799F400115154 /* MainStoryboard.storyboard */; };
 		4B294B1F16F799F400115154 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B294B1E16F799F400115154 /* ViewController.m */; };
 		4B294B2716F79A3500115154 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B294B2616F79A3500115154 /* flower.png */; };
+		976659C9172222A9006A7A20 /* NotUsed.m in Sources */ = {isa = PBXBuildFile; fileRef = 976659C8172222A9006A7A20 /* NotUsed.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		4B294B1D16F799F400115154 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4B294B1E16F799F400115154 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4B294B2616F79A3500115154 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
+		976659C7172222A9006A7A20 /* NotUsed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotUsed.h; sourceTree = "<group>"; };
+		976659C8172222A9006A7A20 /* NotUsed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotUsed.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				4B294B2516F79A3500115154 /* Images */,
 				4B294B1116F799F400115154 /* AppDelegate.h */,
 				4B294B1216F799F400115154 /* AppDelegate.m */,
+				976659C7172222A9006A7A20 /* NotUsed.h */,
+				976659C8172222A9006A7A20 /* NotUsed.m */,
 				4B294B1A16F799F400115154 /* MainStoryboard.storyboard */,
 				4B294B1D16F799F400115154 /* ViewController.h */,
 				4B294B1E16F799F400115154 /* ViewController.m */,
@@ -188,6 +193,7 @@
 				4B294B0F16F799F400115154 /* main.m in Sources */,
 				4B294B1316F799F400115154 /* AppDelegate.m in Sources */,
 				4B294B1F16F799F400115154 /* ViewController.m in Sources */,
+				976659C9172222A9006A7A20 /* NotUsed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +316,7 @@
 				4B294B2416F799F400115154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
