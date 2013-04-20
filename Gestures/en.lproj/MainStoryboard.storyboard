@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Zk-hA-bET" userLabel="Tap Me">
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tap Me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0D-53-dGb">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.67127093940000004" green="1" blue="0.69475795669999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="t0D-53-dGb" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="H0P-he-wjh"/>
+                                    <constraint firstItem="t0D-53-dGb" firstAttribute="centerX" secondItem="7Zk-hA-bET" secondAttribute="centerX" type="default" id="gaV-eQ-bM9"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4Gl-vv-k5Y" appends="YES" id="mhZ-A6-ZNJ"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uiK-fZ-Dhb" userLabel="Swipe Me">
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Swipe Me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7q-TG-fla">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="91" id="KsI-rt-k68"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.46899226746650446" green="1" blue="0.84430477539115623" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="p7q-TG-fla" firstAttribute="centerX" secondItem="uiK-fZ-Dhb" secondAttribute="centerX" type="default" id="Kvw-iA-UHN"/>
+                                    <constraint firstItem="p7q-TG-fla" firstAttribute="top" secondItem="uiK-fZ-Dhb" secondAttribute="top" constant="18" id="axz-bO-5lW"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="A1X-1m-IQZ" appends="YES" id="dFI-bK-y6z"/>
+                                    <outletCollection property="gestureRecognizers" destination="Xme-Ae-Srf" appends="YES" id="YiJ-mi-dNv"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YuN-6W-1MW" userLabel="Pinch Me">
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Pinch Me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7iw-OL-M0n">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="zGw-EL-gZE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.07351984281" green="0.1666991786" blue="0.3617225885" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="7iw-OL-M0n" secondAttribute="bottom" constant="5" id="Cxl-8r-ZHc"/>
+                                    <constraint firstItem="7iw-OL-M0n" firstAttribute="centerX" secondItem="YuN-6W-1MW" secondAttribute="centerX" type="default" id="xyT-3t-jbP"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="zGg-Ur-2ZX" appends="YES" id="pXG-7t-cZF"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="npD-kV-wv6" userLabel="Rotate Me">
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Rotate Me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Kd-8W-ZYE">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.36942454489999998" blue="0.1058966391" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="2Kd-8W-ZYE" firstAttribute="centerX" secondItem="npD-kV-wv6" secondAttribute="centerX" type="default" id="Uid-se-uK2"/>
+                                    <constraint firstItem="2Kd-8W-ZYE" firstAttribute="top" secondItem="npD-kV-wv6" secondAttribute="top" constant="5" id="xx0-up-PjB"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="SNg-wJ-3c3" appends="YES" id="v9l-GH-3be"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Do Something" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6L-Ji-8hT">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pcQ-xH-Mgi">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="4x3-aX-B4z"/>
+                                    <constraint firstAttribute="width" constant="128" id="wDe-7D-tVg"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="YuN-6W-1MW" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="18S-4c-Rtu"/>
+                            <constraint firstItem="7Zk-hA-bET" firstAttribute="top" secondItem="uiK-fZ-Dhb" secondAttribute="top" type="default" id="3Pr-cS-Nu5"/>
+                            <constraint firstAttribute="trailing" secondItem="uiK-fZ-Dhb" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="DlX-mU-POR"/>
+                            <constraint firstItem="uiK-fZ-Dhb" firstAttribute="leading" secondItem="7Zk-hA-bET" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="HI5-8f-FZE"/>
+                            <constraint firstItem="uiK-fZ-Dhb" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="102" id="NYE-LJ-lRp"/>
+                            <constraint firstItem="YuN-6W-1MW" firstAttribute="top" secondItem="3" secondAttribute="top" constant="111" id="PCc-dl-Jse"/>
+                            <constraint firstItem="npD-kV-wv6" firstAttribute="top" secondItem="3" secondAttribute="top" constant="184" id="Rhv-m1-ue7"/>
+                            <constraint firstItem="YuN-6W-1MW" firstAttribute="top" secondItem="uiK-fZ-Dhb" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Ruw-dI-eTa"/>
+                            <constraint firstAttribute="bottom" secondItem="npD-kV-wv6" secondAttribute="bottom" constant="158" id="Sgc-7M-UaP"/>
+                            <constraint firstItem="npD-kV-wv6" firstAttribute="top" secondItem="YuN-6W-1MW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="WV9-51-qPo"/>
+                            <constraint firstItem="YuN-6W-1MW" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="aW7-bS-xFY"/>
+                            <constraint firstItem="pcQ-xH-Mgi" firstAttribute="centerX" secondItem="npD-kV-wv6" secondAttribute="centerX" type="default" id="ca2-bn-rpo"/>
+                            <constraint firstItem="a6L-Ji-8hT" firstAttribute="centerX" secondItem="YuN-6W-1MW" secondAttribute="centerX" type="default" id="gnz-Tv-SVt"/>
+                            <constraint firstItem="7Zk-hA-bET" firstAttribute="top" secondItem="3" secondAttribute="top" constant="45" id="h56-Fr-Q4X"/>
+                            <constraint firstItem="7Zk-hA-bET" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="ivB-sr-7s2"/>
+                            <constraint firstItem="a6L-Ji-8hT" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="nEV-eL-zrd"/>
+                            <constraint firstItem="npD-kV-wv6" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="nln-9p-JeR"/>
+                            <constraint firstItem="YuN-6W-1MW" firstAttribute="top" secondItem="7Zk-hA-bET" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="nnL-7K-1Zb"/>
+                            <constraint firstAttribute="trailing" secondItem="npD-kV-wv6" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="pwi-4Y-gpD"/>
+                            <constraint firstAttribute="bottom" secondItem="pcQ-xH-Mgi" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="sXx-9W-lx1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="pcQ-xH-Mgi" id="jHS-7W-h3v"/>
+                        <outlet property="outPutLabel" destination="a6L-Ji-8hT" id="fKi-qn-snk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="4Gl-vv-k5Y">
+                    <connections>
+                        <action selector="foundTap:" destination="2" id="zFv-De-QaM"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="A1X-1m-IQZ" userLabel="Swipe Right">
+                    <connections>
+                        <action selector="foundSwipe:" destination="2" id="eaU-Xb-cmn"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <pinchGestureRecognizer id="zGg-Ur-2ZX">
+                    <connections>
+                        <action selector="foundPinch:" destination="2" id="Jnv-hE-TPa"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="SNg-wJ-3c3">
+                    <connections>
+                        <action selector="foundRotation:" destination="2" id="N20-Q2-Jju"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="Xme-Ae-Srf" userLabel="Swipe Left">
+                    <connections>
+                        <action selector="SwipeLeft:" destination="2" id="SNV-5i-Axe"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="26" y="150"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="SwipeLeft:"/>
+                <relationship kind="action" name="foundPinch:"/>
+                <relationship kind="action" name="foundRotation:"/>
+                <relationship kind="action" name="foundSwipe:"/>
+                <relationship kind="action" name="foundTap:"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="outPutLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
