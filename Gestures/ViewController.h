@@ -11,6 +11,8 @@
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *outPutLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (nonatomic)BOOL isUsed;
+@property (nonatomic)BOOL isHere;
 
 - (IBAction)foundTap:(id)sender;
 - (IBAction)foundSwipe:(id)sender;
